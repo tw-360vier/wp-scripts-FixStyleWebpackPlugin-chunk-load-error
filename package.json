@@ -1,0 +1,10 @@
+{
+  "name": "wp-scripts-FixStyleWebpackPlugin-chunk-load-error",
+  "devDependencies": {
+    "@wordpress/scripts": "^16.1.0",
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "serve": "wp-scripts build && cp index.html build/ && http-server build"
+  }
+}
